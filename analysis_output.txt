@@ -1,0 +1,41 @@
+Analyzing engineering_platform...                               
+
+   info - The import of 'dart:typed_data' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/foundation.dart' - lib\core\state\user_state.dart:4:8 - unnecessary_import
+   info - Don't invoke 'print' in production code - lib\main.dart:38:5 - avoid_print
+   info - Unnecessary 'const' keyword - lib\presentation\web\auth\login_page.dart:47:19 - unnecessary_const
+   info - Unnecessary 'const' keyword - lib\presentation\web\auth\login_page.dart:48:19 - unnecessary_const
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\web\auth\login_page.dart:68:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\web\auth\login_page.dart:110:61 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\web\auth\login_page.dart:125:67 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\web\auth\login_page.dart:341:61 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\web\auth\login_page.dart:350:59 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\web\auth\signup_page.dart:128:64 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\web\auth\signup_page.dart:138:66 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\web\auth\signup_page.dart:476:59 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\web\auth\signup_page.dart:489:59 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\web\auth\signup_page.dart:496:59 - use_build_context_synchronously
+   info - Unnecessary use of 'toList' in a spread - lib\presentation\web\forms\construction_form.dart:333:30 - unnecessary_to_list_in_spreads
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\web\forms\construction_form.dart:480:39 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\web\forms\construction_form.dart:483:39 - use_build_context_synchronously
+   info - Statements in an if should be enclosed in a block - lib\presentation\web\forms\construction_form.dart:513:43 - curly_braces_in_flow_control_structures
+   info - Don't use 'BuildContext's across async gaps - lib\presentation\web\forms\construction_form.dart:514:45 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\web\forms\construction_form.dart:518:51 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\web\forms\construction_form.dart:523:39 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\web\forms\construction_form.dart:526:39 - use_build_context_synchronously
+   info - Unnecessary use of 'toList' in a spread - lib\presentation\web\forms\structural_design_form.dart:319:30 - unnecessary_to_list_in_spreads
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\web\forms\structural_design_form.dart:502:39 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\web\forms\structural_design_form.dart:505:39 - use_build_context_synchronously
+   info - Statements in an if should be enclosed in a block - lib\presentation\web\forms\structural_design_form.dart:535:43 - curly_braces_in_flow_control_structures
+   info - Don't use 'BuildContext's across async gaps - lib\presentation\web\forms\structural_design_form.dart:536:45 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\web\forms\structural_design_form.dart:540:51 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\web\forms\structural_design_form.dart:545:39 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\web\forms\structural_design_form.dart:548:39 - use_build_context_synchronously
+   info - Unnecessary use of 'toList' in a spread - lib\presentation\web\forms\supervision_form.dart:304:30 - unnecessary_to_list_in_spreads
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\web\forms\supervision_form.dart:403:39 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\web\forms\supervision_form.dart:406:39 - use_build_context_synchronously
+   info - Statements in an if should be enclosed in a block - lib\presentation\web\forms\supervision_form.dart:436:43 - curly_braces_in_flow_control_structures
+   info - Don't use 'BuildContext's across async gaps - lib\presentation\web\forms\supervision_form.dart:437:45 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\web\forms\supervision_form.dart:441:51 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\web\forms\supervision_form.dart:446:39 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\web\forms\supervision_form.dart:449:39 - use_build_context_synchronously
+
